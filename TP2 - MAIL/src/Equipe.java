@@ -52,7 +52,7 @@ public class Equipe
 
 
 	public void addJoueur(Joueur j){
-		if(this.listJoueurs.size()>11){
+		if(this.listJoueurs.size()<=11){
 			this.listJoueurs.add(j);
 			j.setEquipe(this);			
 		}
