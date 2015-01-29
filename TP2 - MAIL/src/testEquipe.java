@@ -87,7 +87,7 @@ public class testEquipe
         equipe1.addJoueur(joueur11);
         equipe1.addJoueur(joueur12);
 
-        assertEquals(12,equipe1.getListJoueurs().size());
+        assertEquals(11,equipe1.getListJoueurs().size());
     }
 }
 
