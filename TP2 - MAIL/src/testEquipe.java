@@ -43,6 +43,7 @@ public class testEquipe
     @Test
     public void TST01()
     {
+    	
     	//Bidirectionnalité effective entre jouer et équipe.
     	
         Joueur joueur1 = new Joueur("MIL", "Eden", "Hazard", 10);
